@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<html lang="en" dir="">
+
+<head>
+  <!-- Required Meta Tags Always Come First -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Title -->
+  <title>Portfolio: Grid | Front - Multipurpose Responsive Template</title>
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="./favicon.ico">
+
+  <!-- Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+
+  <!-- CSS Implementing Plugins -->
+  <link rel="stylesheet" href="./assets/vendor/bootstrap-icons/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="./assets/vendor/hs-mega-menu/dist/hs-mega-menu.min.css">
+
+  <!-- CSS Front Template -->
+  <link rel="stylesheet" href="./assets/css/theme.min.css">
+  
+  <style>
+    .onhover-non-monochrome .avatar{
+      filter: grayscale(1) !important;
+      transition: all .5s;
+    }
+    .onhover-non-monochrome .avatar:hover {
+      filter: none !important;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- ========== HEADER ========== -->
+  <header id="header"
+    class="navbar navbar-expand-lg navbar-end navbar-absolute-top navbar-light navbar-show-hide"
+    data-hs-header-options='{
+            "fixMoment": 1000,
+            "fixEffect": "slide"
+          }'>
+
+    <div class="container">
+      <nav class="js-mega-menu navbar-nav-wrap">
+        <!-- Default Logo -->
+        <a class="navbar-brand" href="./home.html" aria-label="Front">
+          <img class="navbar-brand-logo" src="assets/img/logo/sinaxis-no-bg.png" alt="Logo">
+        </a>
+        <!-- End Default Logo -->
+
+        <!-- Toggler -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-default">
+            <i class="bi-list"></i>
+          </span>
+          <span class="navbar-toggler-toggled">
+            <i class="bi-x"></i>
+          </span>
+        </button>
+        <!-- End Toggler -->
+
+        <!-- Collapse -->
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <div class="navbar-absolute-top-scroller">
+            <ul class="navbar-nav">
+              <!-- Home Page -->
+              <li class="nav-item">
+                <a class="nav-link" href="home.html">Home</a>
+              </li>
+              <!-- End Home Page -->
+              <!-- About Page -->
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+              </li>
+              <!-- End About Page -->
+              <!-- Company -->
+              <li class="hs-has-sub-menu nav-item">
+                <a id="companyMegaMenu" class="hs-mega-menu-invoker nav-link dropdown-toggle" href="#"
+                  role="button" aria-expanded="false">Departments</a>
+
+                <!-- Mega Menu -->
+                <div class="hs-sub-menu dropdown-menu" aria-labelledby="companyMegaMenu" style="min-width: 14rem;">
+                  <a class="dropdown-item " href="radio.html">Radio Frequency</a>
+                  <a class="dropdown-item " href="power.html">Power Electronics</a>
+                </div>
+                <!-- End Mega Menu -->
+              </li>
+              <!-- End Company -->
+              <!-- Products Page -->
+              <li class="nav-item">
+                <a class="nav-link active" href="product.html">Products</a>
+              </li>
+              <!-- End Products Page -->
+              <!-- Service Page -->
+              <li class="nav-item">
+                <a class="nav-link" href="service.html">Services</a>
+              </li>
+              <!-- End Service Page -->
+              <!-- Contact Page -->
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+              <!-- End Contact Page -->
+            </ul>
+          </div>
+        </div>
+        <!-- End Collapse -->
+      </nav>
+    </div>
+  </header>
+  <!-- ========== END HEADER ========== -->
+
+  <!-- ========== MAIN CONTENT ========== -->
+  <main id="content" role="main">
+    <div class="container content-space-t-3 content-space-t-lg-5 content-space-b-2 content-space-b-lg-3">
+      <!-- Hero -->
+      <div class="text-center">
+        <p class="lead"></p>
+        <h1 class="display-4 mb-0">
+          <span class="text-highlight-warning">
+            <span class="js-typedjs" data-hs-typed-options='{
+                    "strings": ["Our Services", "Our Innovation" , "Our Solutions", "Our Products"],
+                    "typeSpeed": 100,
+                    "loop": true,
+                    "backSpeed": 50,
+                    "backDelay": 1500
+                  }'></span>
+          </span>
+        </h1>
+      </div>
+    </div>
+    <!-- End Hero -->
+
+    <!-- Card Grid -->
+    <div class="container content-space-b-2 content-space-b-lg-3">
+      <!-- Nav Scroller -->
+      <div class="js-nav-scroller hs-nav-scroller-horizontal mb-7">
+        <span class="hs-nav-scroller-arrow-prev" style="display: none">
+          <a class="hs-nav-scroller-arrow-link" href="javascript:;">
+            <!-- <i class="bi-chevron-left"></i> -->
+          </a>
+        </span>
+
+        <span class="hs-nav-scroller-arrow-next" style="display: none">
+          <a class="hs-nav-scroller-arrow-link" href="javascript:;">
+            <!-- <i class="bi-chevron-right"></i> -->
+          </a>
+        </span>
+
+        <!-- Nav -->
+        <ul class="js-filter-options nav nav-segment nav-pills d-flex mx-auto" style="max-width: 30rem">
+          <li class="nav-item">
+            <a class="nav-link active" href="javascript:;" data-group="all">All</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="javascript:;" data-group="Radar">Naval Radar Systems</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="javascript:;" data-group="Microwave">Microwave</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="javascript:;" data-group="Development">Development</a>
+          </li>
+        </ul>
+        <!-- End Nav -->
+      </div>
+      <!-- End Nav Scroller -->
+
+      <div class="js-shuffle row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4">
+        <div class="js-shuffle-item col mb-5" data-groups='["Radar"]'>
+          <!-- Card -->
+          <a class="card card-flush card-transition" href="#">
+            <img class="card-img-top" src="./assets/img/400x500/img12.jpg" alt="Image Description" />
+            <div class="card-body">
+              <span class="card-subtitle text-body">Naval Radar Systems</span>
+              <h3 class="card-title">Frequency Converters</h3>
+              <p class="card-text">
+                Our frequency converters ensure seamless signal translation and optimal performance in radar systems.
+              </p>
+            </div>
+          </a>
+          <!-- End Card -->
+        </div>
+        <!-- End Col -->
+
+        <div class="js-shuffle-item col mb-5" data-groups='["Radar"]'>
+          <!-- Card -->
+          <a class="card card-flush card-transition" href="#">
+            <img class="card-img-top" src="./assets/img/400x500/img11.jpg" alt="Image Description" />
+            <div class="card-body">
+              <span class="card-subtitle text-body">Naval Radar Systems</span>
+              <h3 class="card-title">Synthesizers</h3>
+              <p class="card-text">
+                Our RF synthesizers provide stable frequencies for reliable radar signal processing.
+              </p>
+            </div>
+          </a>
+          <!-- End Card -->
+        </div>
+        <!-- End Col -->
+
+        <div class="js-shuffle-item col mb-5" data-groups='["Radar"]'>
+          <!-- Card -->
+          <a class="card card-flush card-transition" href="#">
+            <img class="card-img-top" src="./assets/img/400x500/img21.jpg" alt="Image Description" />
+            <div class="card-body">
+              <span class="card-subtitle text-body">Naval Radar Systems</span>
+              <h3 class="card-title">Driver Amplifiers</h3>
+              <p class="card-text">
+                Our driver amplifiers deliver efficient, reliable power amplification for radar signal transmission.
+              </p>
+            </div>
+          </a>
+          <!-- End Card -->
+        </div>
+        <!-- End Col -->
+
+        <div class="js-shuffle-item col mb-5" data-groups='["Radar"]'>
+          <!-- Card -->
+          <a class="card card-flush card-transition" href="#">
+            <img class="card-img-top" src="./assets/img/400x500/img24.jpg" alt="Image Description" />
+            <div class="card-body">
+              <span class="card-subtitle text-body">Naval Radar Systems</span>
+              <h3 class="card-title">Radar Front-end Modules</h3>
+              <p class="card-text">
+                Our radar front-end modules integrate amplification, filtering, and frequency conversion to enhance
+                performance.
+              </p>
+            </div>
+          </a>
+          <!-- End Card -->
+        </div>
+        <!-- End Col -->
+
+        <div class="js-shuffle-item col mb-5" data-groups='["Radar"]'>
+          <!-- Card -->
+          <a class="card card-flush card-transition" href="#">
+            <img class="card-img-top" src="./assets/img/400x500/img19.jpg" alt="Image Description" />
+            <div class="card-body">
+              <span class="card-subtitle text-body">Naval Radar Systems</span>
+              <h3 class="card-title">IF Receivers</h3>
+              <p class="card-text">
+                Our radar front-end modules integrate amplification, filtering, and frequency conversion to enhance
+                design and performance.
+              </p>
+            </div>
+          </a>
+          <!-- End Card -->
+        </div>
+        <!-- End Col -->
+
+        <div class="js-shuffle-item col mb-5" data-groups='["Radar"]'>
+          <!-- Card -->
+          <a class="card card-flush card-transition" href="#">
+            <img class="card-img-top" src="./assets/img/400x500/img20.jpg" alt="Image Description" />
+            <div class="card-body">
+              <span class="card-subtitle text-body">Naval Radar Systems</span>
+              <h3 class="card-title">Digital Receivers</h3>
+
+              <p class="card-text">
+                Our digital receivers use DSP to convert analog radar signals, enhancing processing and flexibility.
+              </p>
+            </div>
+          </a>
+          <!-- End Card -->
+        </div>
+        <!-- End Col -->
+
+        <div class="js-shuffle-item col mb-5" data-groups='["Radar"]'>
+          <!-- Card -->
+          <a class="card card-flush card-transition" href="#">
+            <img class="card-img-top" src="./assets/img/400x500/img22.jpg" alt="Image Description" />
+            <div class="card-body">
+              <span class="card-subtitle text-body">Naval Radar Systems</span>
+              <h3 class="card-title">Power Amplifiers</h3>
+              <p class="card-text">
+                Our high-power amplifiers deliver output power for radar and EW systems, enabling long-range detection.
+              </p>
+            </div>
+          </a>
+          <!-- End Card -->
+        </div>
+        <!-- End Col -->
+
+        <div class="js-shuffle-item col mb-5" data-groups='["Radar"]'>
+          <!-- Card -->
+          <a class="card card-flush card-transition" href="#">
+            <img class="card-img-top" src="./assets/img/400x500/img23.jpg" alt="Image Description" />
+            <div class="card-body">
+              <span class="card-subtitle text-body">Naval Radar Systems</span>
+              <h3 class="card-title">Phase Shifters</h3>
+              <p class="card-text">
+                Our advanced phase shifters provide precise phase control for efficient beamforming in radar and EW
+                applications.
+              </p>
+            </div>
+          </a>
+          <!-- End Card -->
+        </div>
+        <!-- End Col -->
+
+        <div class="js-shuffle-item col mb-5" data-groups='["Radar"]'>
+          <!-- Card -->
+          <a class="card card-flush card-transition" href="#">
+            <img class="card-img-top" src="./assets/img/400x500/img10.jpg" alt="Image Description" />
+            <div class="card-body">
+              <span class="card-subtitle text-body">Naval Radar Systems</span>
+              <h3 class="card-title">Electronic Attenuators</h3>
+              <p class="card-text">
+                Our electronic attenuators ensure precise signal control, protecting components and optimizing
+                performance.
+              </p>
+            </div>
+          </a>
+          <!-- End Card -->
+        </div>
+        <!-- End Col -->
+
+        <div class="js-shuffle-item col mb-5" data-groups='["Radar"]'>
+          <!-- Card -->
+          <a class="card card-flush card-transition" href="#">
+            <img class="card-img-top" src="./assets/img/400x500/img10.jpg" alt="Image Description" />
+            <div class="card-body">
+              <span class="card-subtitle text-body">Naval Radar Systems</span>
+              <h3 class="card-title">Antennas</h3>
+              <p class="card-text">
+                Our phase shifters provide precise control for efficient beamforming in radar and EW applications.
+              </p>
+            </div>
+          </a>
+          <!-- End Card -->
+        </div>
+        <!-- End Col -->
+
+        <div class="js-shuffle-item col mb-5" data-groups='["Radar"]'>
+          <!-- Card -->
+          <a class="card card-flush card-transition" href="#">
+            <img class="card-img-top" src="./assets/img/400x500/img10.jpg" alt="Image Description" />
+            <div class="card-body">
+              <span class="card-subtitle text-body">Naval Radar Systems</span>
+              <h3 class="card-title">EW Jammers</h3>
+              <p class="card-text">
+                Our EW jammers disrupt enemy communications, providing a tactical advantage in warfare.
+              </p>
+            </div>
+          </a>
+          <!-- End Card -->
+        </div>
+        <!-- End Col -->
+
+        <div class="js-shuffle-item col mb-5" data-groups='["Microwave"]'>
+          <!-- Card -->
+          <a class="card card-flush card-transition" href="#">
+            <img class="card-img-top" src="./assets/img/400x500/img10.jpg" alt="Image Description" />
+            <div class="card-body">
+              <span class="card-subtitle text-body">RF & Microwave Components</span>
+              <h3 class="card-title">Amplifiers</h3>
+              <p class="card-text">
+                High-power, low-noise amplifiers ensure enhanced signal integrity and reliability in demanding
+                applications.
+              </p>
+            </div>
+          </a>
+          <!-- End Card -->
+        </div>
+        <!-- End Col -->
+
+        <div class="js-shuffle-item col mb-5" data-groups='["Microwave"]'>
+          <!-- Card -->
+          <a class="card card-flush card-transition" href="#">
+            <img class="card-img-top" src="./assets/img/400x500/img10.jpg" alt="Image Description" />
+            <div class="card-body">
+              <span class="card-subtitle text-body">RF & Microwave Components</span>
+              <h3 class="card-title">Filters</h3>
+              <p class="card-text">
+                We offer customizable filters that enable precise frequency selection for various applications.
+              </p>
+            </div>
+          </a>
+          <!-- End Card -->
+        </div>
+        <!-- End Col -->
+
+        <div class="js-shuffle-item col mb-5" data-groups='["Microwave"]'>
+          <!-- Card -->
+          <a class="card card-flush card-transition" href="#">
+            <img class="card-img-top" src="./assets/img/400x500/img10.jpg" alt="Image Description" />
+            <div class="card-body">
+              <span class="card-subtitle text-body">RF & Microwave Components</span>
+              <h3 class="card-title">Oscillators</h3>
+              <p class="card-text">
+                We provide stable and reliable oscillators suitable for a wide range of applications across various
+                industries.
+              </p>
+            </div>
+          </a>
+          <!-- End Card -->
+        </div>
+        <!-- End Col -->
+
+        <div class="js-shuffle-item col mb-5" data-groups='["Microwave"]'>
+          <!-- Card -->
+          <a class="card card-flush card-transition" href="#">
+            <img class="card-img-top" src="./assets/img/400x500/img10.jpg" alt="Image Description" />
+            <div class="card-body">
+              <span class="card-subtitle text-body">RF & Microwave Components</span>
+              <h3 class="card-title">Switches</h3>
+              <p class="card-text">
+                We offer fast and reliable RF switches designed for seamless operation in diverse applications.
+              </p>
+            </div>
+          </a>
+          <!-- End Card -->
+        </div>
+        <!-- End Col -->
+
+        <div class="js-shuffle-item col mb-5" data-groups='["Development"]'>
+          <!-- Card -->
+          <a class="card card-flush card-transition" href="#">
+            <img class="card-img-top" src="./assets/img/400x500/img10.jpg" alt="Image Description" />
+            <div class="card-body">
+              <span class="card-subtitle text-body">In-House Design, Development, and Testing Capabilities
+              </span>
+              <h3 class="card-title">Advanced Design And Development</h3>
+              <p class="card-text">
+                Sinaxis Enterprises delivers advanced RF and microwave solutions for radar and electronic warfare,
+                ensuring precision and reliability.
+              </p>
+            </div>
+          </a>
+          <!-- End Card -->
+        </div>
+        <!-- End Col -->
+
+        <div class="js-shuffle-item col mb-5" data-groups='["Development"]'>
+          <!-- Card -->
+          <a class="card card-flush card-transition" href="#">
+            <img class="card-img-top" src="./assets/img/400x500/img10.jpg" alt="Image Description" />
+            <div class="card-body">
+              <span class="card-subtitle text-body">In-House Design, Development, and Testing Capabilities</span>
+              <h3 class="card-title">Advanced Modelling</h3>
+              <p class="card-text">
+                At Sinaxis Enterprises, we utilize advanced modeling and simulations to design precise RF and microwave
+                solutions, minimizing risks and meeting specifications.
+              </p>
+            </div>
+          </a>
+          <!-- End Card -->
+        </div>
+        <!-- End Col -->
+      </div>
+      <!-- End Row -->
+    </div>
+    <!-- End Card Grid -->
+
+  </main>
+  <!-- ========== END MAIN CONTENT ========== -->
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="container text-center content-space-1">
+    <!-- Logo -->
+    <a class="d-inline-flex align-items-center mb-2" href="index.html" aria-label="Front">
+      <img class="brand" src="assets/img/logo/sinaxis-no-bg.png" alt="Logo">
+    </a>
+    <!-- End Logo -->
+
+    <p class="small text-muted mb-0">2014 © Sinaxis. All rights reserved.</p>
+  </footer>
+  <!-- ========== END FOOTER ========== -->
+
+  <!-- Go To -->
+  <a class="js-go-to go-to position-fixed" href="javascript:;" style="visibility: hidden;" data-hs-go-to-options='{
+       "offsetTop": 700,
+       "position": {
+         "init": {
+           "right": "2rem"
+         },
+         "show": {
+           "bottom": "2rem"
+         },
+         "hide": {
+           "bottom": "-2rem"
+         }
+       }
+     }'>
+    <i class="bi-chevron-up"></i>
+  </a>
+  <!-- ========== END SECONDARY CONTENTS ========== -->
+
+  <!-- JS Global Compulsory  -->
+  <script src="./assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- JS Implementing Plugins -->
+  <script src="./assets/vendor/hs-header/dist/hs-header.min.js"></script>
+  <script src="./assets/vendor/hs-mega-menu/dist/hs-mega-menu.min.js"></script>
+  <script src="./assets/vendor/hs-show-animation/dist/hs-show-animation.min.js"></script>
+  <script src="./assets/vendor/hs-go-to/dist/hs-go-to.min.js"></script>
+  <script src="./assets/vendor/hs-nav-scroller/dist/hs-nav-scroller.min.js"></script>
+  <script src="./assets/vendor/typed.js/lib/typed.min.js"></script>
+  <script src="./assets/vendor/shufflejs/dist/shuffle.js"></script>
+
+  <!-- JS Front -->
+  <script src="./assets/js/theme.min.js"></script>
+
+  <!-- JS Plugins Init. -->
+  <script>
+    (function () {
+      // INITIALIZATION OF HEADER
+      // =======================================================
+      new HSHeader('#header').init()
+
+
+      // INITIALIZATION OF MEGA MENU
+      // =======================================================
+      new HSMegaMenu('.js-mega-menu', {
+        desktop: {
+          position: 'left'
+        }
+      })
+
+
+      // INITIALIZATION OF SHOW ANIMATIONS
+      // =======================================================
+      new HSShowAnimation('.js-animation-link')
+
+
+      // INITIALIZATION OF BOOTSTRAP VALIDATION
+      // =======================================================
+      HSBsValidation.init('.js-validate', {
+        onSubmit: data => {
+          data.event.preventDefault()
+          alert('Submited')
+        }
+      })
+
+
+      // INITIALIZATION OF BOOTSTRAP DROPDOWN
+      // =======================================================
+      HSBsDropdown.init()
+
+
+      // INITIALIZATION OF GO TO
+      // =======================================================
+      new HSGoTo('.js-go-to')
+
+
+      // INITIALIZATION OF TEXT ANIMATION (TYPING)
+      // =======================================================
+      HSCore.components.HSTyped.init('.js-typedjs')
+
+
+      // INITIALIZATION OF NAV SCROLLER
+      // =======================================================
+      new HsNavScroller('.js-nav-scroller')
+
+
+      // INITIALIZATION OF SHUFFLE
+      // =======================================================
+      class ShufflePorfolio {
+        constructor(element) {
+          this.element = element;
+          this.shuffle = new Shuffle(element, {
+            itemSelector: '.js-shuffle-item',
+            speed: 500
+          })
+
+          this.addFilterButtons()
+        }
+
+        addFilterButtons() {
+          const options = document.querySelector('.js-filter-options')
+          if (!options) {
+            return
+          }
+
+          const filterButtons = Array.from(options.children)
+          const onClick = this._handleFilterClick.bind(this)
+          filterButtons.forEach((button) => {
+            button.addEventListener('click', onClick, false)
+          });
+        }
+
+        _handleFilterClick(evt) {
+          const btn = evt.currentTarget.firstElementChild
+          const isActive = btn.classList.contains('active')
+          const btnGroup = btn.getAttribute('data-group')
+
+          this._removeActiveClassFromChildren(btn.parentNode.parentNode)
+
+          let filterGroup
+          if (isActive) {
+            btn.classList.remove('active')
+            filterGroup = Shuffle.ALL_ITEMS
+          } else {
+            btn.classList.add('active')
+            filterGroup = btnGroup
+          }
+
+          this.shuffle.filter(filterGroup)
+        }
+
+        _removeActiveClassFromChildren(parent) {
+          const { children } = parent
+          for (let i = children.length - 1; i >= 0; i--) {
+            children[i].firstElementChild.classList.remove('active')
+          }
+        }
+      }
+
+      new ShufflePorfolio(document.querySelector('.js-shuffle'))
+    })()
+  </script>
+</body>
+
+</html>
