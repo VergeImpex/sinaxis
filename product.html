@@ -21,25 +21,30 @@
 
   <!-- CSS Front Template -->
   <link rel="stylesheet" href="./assets/css/theme.min.css">
-  
+
   <style>
-    .onhover-non-monochrome .avatar{
+    .onhover-non-monochrome .avatar {
       filter: grayscale(1) !important;
       transition: all .5s;
     }
+
     .onhover-non-monochrome .avatar:hover {
       filter: none !important;
     }
-    .product-card .card{
+
+    .product-card .card {
       height: 620px;
+    }
+
+    .product-card .card:hover { 
+      box-shadow: 0 2.75rem 5.5rem -3.5rem rgba(189, 197, 209, .5), 0 2rem 4rem -2rem rgba(33, 50, 91, .3); 
     }
   </style>
 </head>
 
 <body>
   <!-- ========== HEADER ========== -->
-  <header id="header"
-    class="navbar navbar-expand-lg navbar-end navbar-absolute-top navbar-light navbar-show-hide"
+  <header id="header" class="navbar navbar-expand-lg navbar-end navbar-absolute-top navbar-light navbar-show-hide"
     data-hs-header-options='{
             "fixMoment": 1000,
             "fixEffect": "slide"
@@ -81,8 +86,8 @@
               <!-- End About Page -->
               <!-- Company -->
               <li class="hs-has-sub-menu nav-item">
-                <a id="companyMegaMenu" class="hs-mega-menu-invoker nav-link dropdown-toggle" href="#"
-                  role="button" aria-expanded="false">Departments</a>
+                <a id="companyMegaMenu" class="hs-mega-menu-invoker nav-link dropdown-toggle" href="#" role="button"
+                  aria-expanded="false">Departments</a>
 
                 <!-- Mega Menu -->
                 <div class="hs-sub-menu dropdown-menu" aria-labelledby="companyMegaMenu" style="min-width: 14rem;">
@@ -125,7 +130,7 @@
         <h1 class="display-4 mb-0">
           <span class="text-highlight-warning">
             <span class="js-typedjs" data-hs-typed-options='{
-                    "strings": ["Our Services", "Our Innovation" , "Our Solutions", "Our Products"],
+                    "strings": ["Our Products", "Our Products", "Our Products", "Our Products"],
                     "typeSpeed": 100,
                     "loop": true,
                     "backSpeed": 50,
@@ -159,24 +164,21 @@
             <a class="nav-link active" href="javascript:;" data-group="all">All</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="javascript:;" data-group="Radar">Naval Radar Systems</a>
+            <a class="nav-link" href="javascript:;" data-group="Radio">Radio Frequency</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="javascript:;" data-group="Microwave">Microwave</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="javascript:;" data-group="Development">Development</a>
-          </li>
+            <a class="nav-link" href="javascript:;" data-group="Power">Power Electronics</a>
+          </li> 
         </ul>
         <!-- End Nav -->
       </div>
       <!-- End Nav Scroller -->
 
       <div class="js-shuffle row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 product-card">
-        <div class="js-shuffle-item col mb-5" data-groups='["Radar"]'>
+        <div class="js-shuffle-item col mb-5" data-groups='["Radio"]'>
           <!-- Card -->
           <a class="card card-flush card-transition" href="#">
-            <img class="card-img-top" src="./assets/img/400x500/img12.jpg" alt="Image Description" />
+            <img class="card-img-top" src="./assets/img/400x500/Frequency_Up_Converter.png" alt="Image Description" />
             <div class="card-body">
               <span class="card-subtitle text-body">Naval Radar Systems</span>
               <h3 class="card-title">Frequency Converters</h3>
@@ -189,10 +191,10 @@
         </div>
         <!-- End Col -->
 
-        <div class="js-shuffle-item col mb-5" data-groups='["Radar"]'>
+        <div class="js-shuffle-item col mb-5" data-groups='["Radio"]'>
           <!-- Card -->
           <a class="card card-flush card-transition" href="#">
-            <img class="card-img-top" src="./assets/img/400x500/img11.jpg" alt="Image Description" />
+            <img class="card-img-top" src="./assets/img/400x500/Synthesizer.png" alt="Image Description" />
             <div class="card-body">
               <span class="card-subtitle text-body">Naval Radar Systems</span>
               <h3 class="card-title">Synthesizers</h3>
@@ -205,10 +207,10 @@
         </div>
         <!-- End Col -->
 
-        <div class="js-shuffle-item col mb-5" data-groups='["Radar"]'>
+        <div class="js-shuffle-item col mb-5" data-groups='["Radio"]'>
           <!-- Card -->
           <a class="card card-flush card-transition" href="#">
-            <img class="card-img-top" src="./assets/img/400x500/img21.jpg" alt="Image Description" />
+            <img class="card-img-top" src="./assets/img/400x500/Driver_Amplifiers.png" alt="Image Description" />
             <div class="card-body">
               <span class="card-subtitle text-body">Naval Radar Systems</span>
               <h3 class="card-title">Driver Amplifiers</h3>
@@ -221,10 +223,10 @@
         </div>
         <!-- End Col -->
 
-        <div class="js-shuffle-item col mb-5" data-groups='["Radar"]'>
+        <div class="js-shuffle-item col mb-5" data-groups='["Radio"]'>
           <!-- Card -->
           <a class="card card-flush card-transition" href="#">
-            <img class="card-img-top" src="./assets/img/400x500/img24.jpg" alt="Image Description" />
+            <img class="card-img-top" src="./assets/img/400x500/Radar_frontend_module.png" alt="Image Description" />
             <div class="card-body">
               <span class="card-subtitle text-body">Naval Radar Systems</span>
               <h3 class="card-title">Radar Front-end Modules</h3>
@@ -238,10 +240,10 @@
         </div>
         <!-- End Col -->
 
-        <div class="js-shuffle-item col mb-5" data-groups='["Radar"]'>
+        <div class="js-shuffle-item col mb-5" data-groups='["Radio"]'>
           <!-- Card -->
           <a class="card card-flush card-transition" href="#">
-            <img class="card-img-top" src="./assets/img/400x500/img19.jpg" alt="Image Description" />
+            <img class="card-img-top" src="./assets/img/400x500/Radar_IF_Receivers.png" alt="Image Description" />
             <div class="card-body">
               <span class="card-subtitle text-body">Naval Radar Systems</span>
               <h3 class="card-title">IF Receivers</h3>
@@ -255,10 +257,10 @@
         </div>
         <!-- End Col -->
 
-        <div class="js-shuffle-item col mb-5" data-groups='["Radar"]'>
+        <div class="js-shuffle-item col mb-5" data-groups='["Radio"]'>
           <!-- Card -->
           <a class="card card-flush card-transition" href="#">
-            <img class="card-img-top" src="./assets/img/400x500/img20.jpg" alt="Image Description" />
+            <img class="card-img-top" src="./assets/img/400x500/Digital_receivers.png" alt="Image Description" />
             <div class="card-body">
               <span class="card-subtitle text-body">Naval Radar Systems</span>
               <h3 class="card-title">Digital Receivers</h3>
@@ -272,10 +274,10 @@
         </div>
         <!-- End Col -->
 
-        <div class="js-shuffle-item col mb-5" data-groups='["Radar"]'>
+        <div class="js-shuffle-item col mb-5" data-groups='["Radio"]'>
           <!-- Card -->
           <a class="card card-flush card-transition" href="#">
-            <img class="card-img-top" src="./assets/img/400x500/img22.jpg" alt="Image Description" />
+            <img class="card-img-top" src="./assets/img/400x500/Power_Amplifiers.png" alt="Image Description" />
             <div class="card-body">
               <span class="card-subtitle text-body">Naval Radar Systems</span>
               <h3 class="card-title">Power Amplifiers</h3>
@@ -288,10 +290,10 @@
         </div>
         <!-- End Col -->
 
-        <div class="js-shuffle-item col mb-5" data-groups='["Radar"]'>
+        <div class="js-shuffle-item col mb-5" data-groups='["Radio"]'>
           <!-- Card -->
           <a class="card card-flush card-transition" href="#">
-            <img class="card-img-top" src="./assets/img/400x500/img23.jpg" alt="Image Description" />
+            <img class="card-img-top" src="./assets/img/400x500/Phase_Shifters.png" alt="Image Description" />
             <div class="card-body">
               <span class="card-subtitle text-body">Naval Radar Systems</span>
               <h3 class="card-title">Phase Shifters</h3>
@@ -305,10 +307,10 @@
         </div>
         <!-- End Col -->
 
-        <div class="js-shuffle-item col mb-5" data-groups='["Radar"]'>
+        <div class="js-shuffle-item col mb-5" data-groups='["Radio"]'>
           <!-- Card -->
           <a class="card card-flush card-transition" href="#">
-            <img class="card-img-top" src="./assets/img/400x500/img10.jpg" alt="Image Description" />
+            <img class="card-img-top" src="./assets/img/400x500/Electronic_attenuators.png" alt="Image Description" />
             <div class="card-body">
               <span class="card-subtitle text-body">Naval Radar Systems</span>
               <h3 class="card-title">Electronic Attenuators</h3>
@@ -322,132 +324,16 @@
         </div>
         <!-- End Col -->
 
-        <div class="js-shuffle-item col mb-5" data-groups='["Radar"]'>
+        <div class="js-shuffle-item col mb-5" data-groups='["Radio"]'>
           <!-- Card -->
           <a class="card card-flush card-transition" href="#">
-            <img class="card-img-top" src="./assets/img/400x500/img10.jpg" alt="Image Description" />
-            <div class="card-body">
-              <span class="card-subtitle text-body">Naval Radar Systems</span>
-              <h3 class="card-title">Antennas</h3>
-              <p class="card-text">
-                Our phase shifters provide precise control for efficient beamforming in radar and EW applications.
-              </p>
-            </div>
-          </a>
-          <!-- End Card -->
-        </div>
-        <!-- End Col -->
-
-        <div class="js-shuffle-item col mb-5" data-groups='["Radar"]'>
-          <!-- Card -->
-          <a class="card card-flush card-transition" href="#">
-            <img class="card-img-top" src="./assets/img/400x500/img10.jpg" alt="Image Description" />
-            <div class="card-body">
-              <span class="card-subtitle text-body">Naval Radar Systems</span>
-              <h3 class="card-title">EW Jammers</h3>
-              <p class="card-text">
-                Our EW jammers disrupt enemy communications, providing a tactical advantage in warfare.
-              </p>
-            </div>
-          </a>
-          <!-- End Card -->
-        </div>
-        <!-- End Col -->
-
-        <div class="js-shuffle-item col mb-5" data-groups='["Microwave"]'>
-          <!-- Card -->
-          <a class="card card-flush card-transition" href="#">
-            <img class="card-img-top" src="./assets/img/400x500/img10.jpg" alt="Image Description" />
+            <img class="card-img-top" src="./assets/img/400x500/Power_Amplifiers.png" alt="Image Description" />
             <div class="card-body">
               <span class="card-subtitle text-body">RF & Microwave Components</span>
               <h3 class="card-title">Amplifiers</h3>
               <p class="card-text">
                 High-power, low-noise amplifiers ensure enhanced signal integrity and reliability in demanding
                 applications.
-              </p>
-            </div>
-          </a>
-          <!-- End Card -->
-        </div>
-        <!-- End Col -->
-
-        <div class="js-shuffle-item col mb-5" data-groups='["Microwave"]'>
-          <!-- Card -->
-          <a class="card card-flush card-transition" href="#">
-            <img class="card-img-top" src="./assets/img/400x500/img10.jpg" alt="Image Description" />
-            <div class="card-body">
-              <span class="card-subtitle text-body">RF & Microwave Components</span>
-              <h3 class="card-title">Filters</h3>
-              <p class="card-text">
-                We offer customizable filters that enable precise frequency selection for various applications.
-              </p>
-            </div>
-          </a>
-          <!-- End Card -->
-        </div>
-        <!-- End Col -->
-
-        <div class="js-shuffle-item col mb-5" data-groups='["Microwave"]'>
-          <!-- Card -->
-          <a class="card card-flush card-transition" href="#">
-            <img class="card-img-top" src="./assets/img/400x500/img10.jpg" alt="Image Description" />
-            <div class="card-body">
-              <span class="card-subtitle text-body">RF & Microwave Components</span>
-              <h3 class="card-title">Oscillators</h3>
-              <p class="card-text">
-                We provide stable and reliable oscillators suitable for a wide range of applications across various
-                industries.
-              </p>
-            </div>
-          </a>
-          <!-- End Card -->
-        </div>
-        <!-- End Col -->
-
-        <div class="js-shuffle-item col mb-5" data-groups='["Microwave"]'>
-          <!-- Card -->
-          <a class="card card-flush card-transition" href="#">
-            <img class="card-img-top" src="./assets/img/400x500/img10.jpg" alt="Image Description" />
-            <div class="card-body">
-              <span class="card-subtitle text-body">RF & Microwave Components</span>
-              <h3 class="card-title">Switches</h3>
-              <p class="card-text">
-                We offer fast and reliable RF switches designed for seamless operation in diverse applications.
-              </p>
-            </div>
-          </a>
-          <!-- End Card -->
-        </div>
-        <!-- End Col -->
-
-        <div class="js-shuffle-item col mb-5" data-groups='["Development"]'>
-          <!-- Card -->
-          <a class="card card-flush card-transition" href="#">
-            <img class="card-img-top" src="./assets/img/400x500/img10.jpg" alt="Image Description" />
-            <div class="card-body">
-              <span class="card-subtitle text-body">In-House Design, Development, and Testing Capabilities
-              </span>
-              <h3 class="card-title">Advanced Design And Development</h3>
-              <p class="card-text">
-                Sinaxis Enterprises delivers advanced RF and microwave solutions for radar and electronic warfare,
-                ensuring precision and reliability.
-              </p>
-            </div>
-          </a>
-          <!-- End Card -->
-        </div>
-        <!-- End Col -->
-
-        <div class="js-shuffle-item col mb-5" data-groups='["Development"]'>
-          <!-- Card -->
-          <a class="card card-flush card-transition" href="#">
-            <img class="card-img-top" src="./assets/img/400x500/img10.jpg" alt="Image Description" />
-            <div class="card-body">
-              <span class="card-subtitle text-body">In-House Design, Development, and Testing Capabilities</span>
-              <h3 class="card-title">Advanced Modelling</h3>
-              <p class="card-text">
-                At Sinaxis Enterprises, we utilize advanced modeling and simulations to design precise RF and microwave
-                solutions, minimizing risks and meeting specifications.
               </p>
             </div>
           </a>
